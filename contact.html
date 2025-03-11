@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Simple Interactive Website</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="style3.css">
 </head>
 <body>
     <nav>
@@ -13,7 +13,7 @@
         <a href="#" onclick="showSection('contact')">Contact</a>
     </nav>
     
-    <section id="home" class="active">
+    <section id="home" class>
         <h1>Welcome to Our Website</h1>
         <p>This is the home page.</p>
     </section>
@@ -23,7 +23,7 @@
         <p>We are a team dedicated to providing excellent services.</p>
     </section>
     
-    <section id="contact">
+    <section id="contact" class="active">
         <h1>Contact Us</h1>
         <form class="contact-form" onsubmit="return validateForm()">
             <input type="text" id="name" placeholder="Your Name" required>
